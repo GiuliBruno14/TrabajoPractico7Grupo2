@@ -163,7 +163,7 @@ public class Inscripcion extends javax.swing.JInternalFrame {
         Iterator it2 = valores2.iterator();
         while (it2.hasNext()) {
             Alumno a = (Alumno) it2.next();
-            if (nombreA.equals(a.getNombre() + "" + a.getApellido())) {
+            if (nombreA.equals(a.getNombre() + " " + a.getApellido())) {
                 while (it.hasNext()) {
                     Materia m1 = (Materia) it.next();
                     if (m1.getNombre().equals(nombreM)) {
